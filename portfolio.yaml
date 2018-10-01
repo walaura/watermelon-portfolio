@@ -39,16 +39,38 @@ index:
   layout: longread
   photolayout: longread
   about:
-    - Index is TNW's data platform. It aggregates information on <strong>startups, brands, and investors</strong>. From 2015 to 2017 I was part of the small team that started it, as client-side developer and designer. In its early stages this project was highly experimental, and had a huge backlog of features and tests the team was keen to run.
+    - Index is TNW's data platform. It aggregates information on <strong>startups, brands, and investors</strong>. From 2015 to 2017 I was a key part of the small team that started this project as a way for our journalists to track startups and grew it into a powerful data tool.
+    - I was responsible for implementing the original art direction as well as for the design of all new features. This work was heavily intertwined with the development itself as the team was extremely agile and eager to test new products and solutions.
   images:
     - url: hero.png
       props:
         - huge
       caption:
-        - Despite the complex, Facebook-Like layout and different pages, every component in Index works across all breakpoints without a hitch. Very early on the team championed building every feature from, or into, a library of extremely flexible, responsive, reusable components.
+        - Despite the complex, Facebook-Like layout and different pages, every component in Index works across all breakpoints without a hitch. Very early on we championed building every feature from, or into, a library of extremely flexible, responsive, reusable components.
     - url: edit.png
       caption:
-        - The design language is powerful yet playful. It scales from simple consumption views to complex multilayered forms.
+        - The design language is powerful yet playful. It scales from simple consumption-heavy views to complex multilayered forms.
+    - url: pop.png
+      caption:
+        - While sporting a flashier look, even promotional pages are part of the component system, gaining access to shared buttons, forms, and layout tools.
+
+tnw:
+  title: TNW
+  layout: sbs
+  photolayout: card
+  about:
+    - I joined a couple months before TNW's big 2015 redesign started the implementation phase. In that time I designed and shipped a couple of microinteractions on the current site such as an improved global nav, account menu, and even a very short lived monthly members newsletter (which had a different gif every week).
+    - I was also involved in implementing the redesign
+    - "A huge part of the redesign was Canvas, TNW's native ad format. The brief for this was simple: The article slides sideways, revealing a beautiful ad underneath. This presented as much of a technical challenge as it was a design challenge, having to consider questions like :what happens on scroll? how to treat phone screens? How to require as few creatives as possible?"
+  images:
+    - url: hero.png
+      props:
+        - huge
+      caption:
+        - Despite the complex, Facebook-Like layout and different pages, every component in Index works across all breakpoints without a hitch. Very early on we championed building every feature from, or into, a library of extremely flexible, responsive, reusable components.
+    - url: edit.png
+      caption:
+        - The design language is powerful yet playful. It scales from simple consumption-heavy views to complex multilayered forms.
     - url: pop.png
       caption:
         - While sporting a flashier look, even promotional pages are part of the component system, gaining access to shared buttons, forms, and layout tools.
@@ -56,7 +78,6 @@ index:
 #gu
 #laundrette
 #fanta
-#bots
 #jolly
 #verse
 #tnw
