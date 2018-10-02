@@ -5,12 +5,19 @@ const arrowSvg = fs.readFileSync(
 	path.resolve(__dirname, '../..', 'static/res/arrow.svg')
 );
 
+const assetExists = asset =>
+	fs.existsSync(path.resolve(__dirname, '../..', 'static/pf', asset));
+
 const slide = ({ id, title, images, about, links, layout, photolayout }) => `
 <section class="slide slide--${id} slide--${layout}">
   <div class="slide__wrap">
     <header class="slide__title">
-      <h2 class="slide__title__title">${title}</h2>
-      <img class="slide__title__avi" src="/pf/${id}/avi.png" />
+			<h2 class="slide__title__title">${title}</h2>
+			${
+				assetExists(`${id}/avi.png`)
+					? `<img class="slide__title__avi" src="/pf/${id}/avi.png" />`
+					: ''
+			}
     </header>
     <div class="slide__text">
       ${about.map(a => `<p>${a}</p>`).join('')}

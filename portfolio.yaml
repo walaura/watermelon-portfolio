@@ -18,10 +18,10 @@ fantas:
 
 bots:
   title: Generative Art
-  layout: sbs
+  layout: sbs-alt
   photolayout: card
   images:
-    - url: 1.jpg
+    - url: bots.png
       props:
         - huge
   about:
@@ -59,21 +59,21 @@ tnw:
   layout: sbs
   photolayout: card
   about:
-    - I joined a couple months before TNW's big 2015 redesign started the implementation phase. In that time I designed and shipped a couple of microinteractions on the current site such as an improved global nav, account menu, and even a very short lived monthly members newsletter (which had a different gif every week).
-    - I was also involved in implementing the redesign
+    - I joined a couple months before TNW's big 2015 redesign started its implementation phase. In that time I designed and shipped a couple of microinteractions on the current site such as an improved global nav, account menu, and even a very short lived monthly members newsletter (which had a different gif every week).
     - "A huge part of the redesign was Canvas, TNW's native ad format. The brief for this was simple: The article slides sideways, revealing a beautiful ad underneath. This presented as much of a technical challenge as it was a design challenge, having to consider questions like :what happens on scroll? how to treat phone screens? How to require as few creatives as possible?"
+    - In addition I also designed & built the microsite for the Tech5 program. Including a super nifty map
   images:
     - url: hero.png
       props:
         - huge
-      caption:
-        - Despite the complex, Facebook-Like layout and different pages, every component in Index works across all breakpoints without a hitch. Very early on we championed building every feature from, or into, a library of extremely flexible, responsive, reusable components.
     - url: edit.png
-      caption:
-        - The design language is powerful yet playful. It scales from simple consumption-heavy views to complex multilayered forms.
     - url: pop.png
-      caption:
-        - While sporting a flashier look, even promotional pages are part of the component system, gaining access to shared buttons, forms, and layout tools.
+
+constellation:
+  title: Constellation
+  layout: longform
+  about:
+    -
 
 #gu
 #laundrette
